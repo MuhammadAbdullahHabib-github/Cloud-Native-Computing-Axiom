@@ -31,5 +31,5 @@ jobs:
       
     # Deploying code on Surge
     - name: Deplying on Surge
-      run: surge ./ muhammad_abdullah_habib.surge.sh --token ${{ secrets.SURGE_DEPLOYMENT_TOKEN}}
+      run: surge ./ muhammad-abdullah-habib.surge.sh --token ${{ secrets.SURGE_DEPLOYMENT_TOKEN}}
    
