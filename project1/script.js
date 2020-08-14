@@ -33,7 +33,7 @@ function isValidEmail(email) {
 // Function which convert alphabets
 
 function getRealId(input) {
-   data = input.id.charAt(0).toUpperCase() + input.id.slice(1).toLowerCase();
+   data = input.id.charAt(0).toUpperCase() + input.id.slice(1 ).toLowerCase();
    return data;
 }
 
@@ -43,11 +43,7 @@ function checkRequired(inputArray) {
     inputArray.forEach(function(input) {
         if(input.value === '') {
             showError(input,`${getRealId(input)} is required`)
-        }
-        else if(!isValidEmail(input === 'email')){
-            showError(input,`Email is invalid`)
-        }
-         else{
+        }  else{
             showSuccess(input);
         }
     });
