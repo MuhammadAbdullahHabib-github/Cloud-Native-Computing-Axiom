@@ -86,7 +86,7 @@ h2 {
 .form button{
     cursor: pointer;
     background-color: royalblue;
-    border: 2px royalblue;
+    border: 2px solid royalblue;
     border-radius: 4px;
     width: 100%;
     color: white;
