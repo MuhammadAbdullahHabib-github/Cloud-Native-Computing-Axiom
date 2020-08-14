@@ -43,11 +43,17 @@ function checkRequired(inputArray) {
     inputArray.forEach(function(input) {
         if(input.value === '') {
             showError(input,`${getRealId(input)} is required`)
-        }else{
+        }
+        else if(!isValidEmail(input === 'email')){
+            showError(input,`Email is invalid`)
+        }
+         else{
             showSuccess(input);
         }
     });
 }
+
+
 
 // event listner creates for Object
 form.addEventListener("submit",function(e) {
