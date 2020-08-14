@@ -30,21 +30,29 @@ function isValidEmail(email) {
     return re.test(String(email).toLowerCase());
 }
 
-// Function to check if required field have data
-
-function checkRequired(inputArray) {
-    inputArray.forEach(function(input) {
-        if(input.value === '') {
-            showError(input,`${input} is required`)
-        }else{
-            showSuccess(input);
-        }
-    });
-}
-
 // event listner creates for Object
 form.addEventListener("submit",function(e) {
     e.preventDefault();
-      checkRequired([username,email,password,password2]);
-
+    if(username.value === '') {
+        showError(username,"Username can't be empty")
+    } else {
+        showSuccess(username);
+    }
+    if(email.value === '') {
+        showError(email,"Email can't be empty")
+    } else if(!isValidEmail(email.value)) {
+        showError(email,"Email is invalid");
+    } else {
+        showSuccess(email);
+    }
+    if(password.value === '') {
+        showError(password,"Password can't be empty")
+    } else {
+        showSuccess(password);
+    }
+    if(password2.value === '') {
+        showError(password2,"Password can't be empty")
+    } else {
+        showSuccess(password2);
+    }  
 })
