@@ -30,12 +30,19 @@ function isValidEmail(email) {
     return re.test(String(email).toLowerCase());
 }
 
+// Function which convert alphabets
+
+function getRealId(input) {
+   data = input.id.charAt(0).toUpperCase() + input.id.slice(1).toLowerCase();
+   return data;
+}
+
 // Function to check if required field have data
 
 function checkRequired(inputArray) {
     inputArray.forEach(function(input) {
         if(input.value === '') {
-            showError(input,`${input} is required`)
+            showError(input,`${getRealId(input)} is required`)
         }else{
             showSuccess(input);
         }
