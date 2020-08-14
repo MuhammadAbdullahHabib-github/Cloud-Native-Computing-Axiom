@@ -65,6 +65,19 @@ function checkLength(input,min,max) {
     }
 }
 
+//Function to confirm password
+
+function confirmPassword(input1 , input2) {
+    if(input1.value === input2.value) {
+        showSuccess(input1);
+        showSuccess(input2);
+    } else {
+        showError(input1,`${getRealId(input1)} does not match`)
+        showError(input2 ,`${getRealId(input2)} does not match`)
+    }
+
+}
+
 // event listner creates for Object
 form.addEventListener("submit",function(e) {
     e.preventDefault();
@@ -72,4 +85,5 @@ form.addEventListener("submit",function(e) {
       checkLength(username,3,10);
       checkLength(password,6,30);
       isValidEmail(email);
+      confirmPassword(password,password2);
 })
