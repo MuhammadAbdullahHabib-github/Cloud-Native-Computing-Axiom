@@ -23,6 +23,13 @@ function showSuccess(input) {
     formControl.className = 'form-control success';
 }
 
+// Function to check Emaill(
+
+function isValidEmail(email) {
+    const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(String(email).toLowerCase());
+}
+
 // event listner creates for Object
 form.addEventListener("submit",function(e) {
     e.preventDefault();
@@ -33,6 +40,8 @@ form.addEventListener("submit",function(e) {
     }
     if(email.value === '') {
         showError(email,"Email can't be empty")
+    } else if(!isValidEmail(email.value)) {
+        showError(email,"Email is invalid");
     } else {
         showSuccess(email);
     }
@@ -45,8 +54,5 @@ form.addEventListener("submit",function(e) {
         showError(password2,"Password can't be empty")
     } else {
         showSuccess(password2);
-    }
-
-
-   
+    }  
 })
