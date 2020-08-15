@@ -1,13 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/project2/style.css">
-    <title>Document</title>
+    <title>Seat Selection</title>
 </head>
+
 <body>
+    <div class="movie-container">
+        <label>Please select youe movie</label>
+        <select id="movie">
+            <option value="15">Top Gun: Maverick ($15)</option>
+            <option value="20">NO Time To Die ($20)</option>
+            <option value="10">The Lion King ($10)</option>
+            <option value="12">Mission Impossible ($12)</option>
+            <option value="15">Jumangi ($15)</option>
+        </select>
+    </div>
+    <ul class="legend">
+        <li>
+            <div class="seat"></div>
+            <small>Avalible</small>
+        </li>
+        <li>
+            <div class="seat selected"></div>
+            <small>Selected</small>
+        </li>
+        <li>
+            <div class="seat occupied"></div>
+            <small>Occupied</small>
+        </li>
+    </ul>
+
+
+
+
+
+
+
+
+
     <a href="../index.html">Home</a>
     <script src="/project2/script.js"></script>
 </body>
+
 </html>
