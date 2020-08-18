@@ -1,0 +1,16 @@
+.row {
+  display: flex;
+}
+
+.legend {
+  display: flex;
+  align-items: center;
+}
+.legend li {
+  margin-right: 30px;
+  display: block;
+}
+.legend small {
+  display: block;
+  text-align: center;
+}
