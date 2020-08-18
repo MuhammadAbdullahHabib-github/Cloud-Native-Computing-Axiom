@@ -7,7 +7,10 @@
 body {
   font-family: 'Lato', sans-serif;
   color:white;
+ 
   background-image: url("/project2/Images/felix-mooneeram-evlkOfkQ5rE-unsplash.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,9 +28,17 @@ body {
   font-weight: bold;
   margin:20px 0px 10px 10px ;
 }
+
+.movie-container img {
+  height: 23px;
+  margin-right: 5px;
+}
 .movie-container select {
   display: block;
-  
+  color: #800000;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-top:10px;
   border: 0px;
   width: 100%;
   padding: 10px 10px 10px 10px;
@@ -35,8 +46,12 @@ body {
   border-radius: 20px;
 }
 
-.movie-container option {
-  border-radius: 5px;
+.movie-container select:focus{
+  outline: none;
+}
+
+.movie-container .movie option {
+ margin-top: 10px;
 }
 
 
@@ -47,12 +62,28 @@ body {
 .legend {
   display: flex;
   align-items: center;
+  color: #711324;
 }
 .legend li {
   margin-right: 30px;
   display: block;
+  font-size: 20px;
 }
 .legend small {
   display: block;
   text-align: center;
+}
+
+.home button {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  width: 100px;
+  margin-bottom:30px;
+  background-color: #711324;
+}
+
+.home a {
+  color: white;
+  text-decoration-line: none;
 }
