@@ -62,7 +62,7 @@ body {
 .legend {
   display: flex;
   align-items: center;
-  color: #711324;
+  color: white;
 }
 .legend li {
   margin-right: 30px;
@@ -87,3 +87,4 @@ body {
   color: white;
   text-decoration-line: none;
 }
+
