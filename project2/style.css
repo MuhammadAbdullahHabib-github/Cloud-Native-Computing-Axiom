@@ -26,7 +26,7 @@ body {
   color: #711324;
   font-size: 30px;
   font-weight: bold;
-  margin:20px 0px 10px 10px ;
+  margin:140px 0px 10px 10px ;
 }
 
 .movie-container img {
@@ -78,7 +78,7 @@ body {
   padding: 10px;
   border: none;
   border-radius: 20px;
-  width: 100px;
+  width: 150px;
   margin-bottom:30px;
   background-color: #711324;
 }
