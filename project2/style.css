@@ -19,6 +19,9 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
 }
 
 .movie-container label {
@@ -86,5 +89,22 @@ body {
 .home a {
   color: white;
   text-decoration-line: none;
+}
+
+.seat {
+  margin :3px;
+}
+
+.seat:nth-last-of-type(8){
+  margin-right: 0px;
+}
+.seat:nth-last-of-type(7){
+  margin-right: 100px;
+}
+.seat:nth-last-of-type(1){
+  margin-left: 0px;
+}
+.seat:nth-last-of-type(2){
+  margin-left: 100px;
 }
 
