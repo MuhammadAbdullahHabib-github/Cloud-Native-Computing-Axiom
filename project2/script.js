@@ -3,6 +3,8 @@ const seats = document.querySelectorAll('.seat')
 const count = document.getElementById('count');
 const total = document.getElementById('total');
 const movieSelect = document.getElementById('movie');
+const screen = document.querySelector('.screen');
+let movietrailer = ['https://www.youtube.com/embed/qSqVVswa420','https://www.youtube.com/embed/qSqVVswa420','https://www.youtube.com/embed/7TavVZMewpY','https://www.youtube.com/embed/XiHiW4N7-bo','https://www.youtube.com/embed/2QKg5SZ_35I']
 let ticketPrice = +movieSelect.value;
 
 function updateSlectedCount(){
@@ -13,11 +15,11 @@ function updateSlectedCount(){
         total.innerText = movieSelect.value * totalSeats;
 }
 
-
 movieSelect.addEventListener('change', (e) =>{
         ticketPrice = +e.target.value;
-        const screen =document.querySelectorAll('movie-trailer')
-        screen.id=e.target.id;
+        console.log(e.target.id)
+        screen.innerHTML=`<iframe class='movie-trailer' width="650" height="290" src="${ movietrailer[+e.target.className]} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+        
        
         updateSlectedCount();
 })
@@ -25,7 +27,9 @@ movieSelect.addEventListener('change', (e) =>{
 // Event Listner on avalible seats
 container.addEventListener('click', function(e) {
         if(e.target.classList.contains('vacentSeat')) {
-                e.target.src='artboard-manImg.png';   
+                e.target.src='artboard-manImg.png'; 
                 e.target.className='chose'
                 updateSlectedCount();
       }})
+
+ 
