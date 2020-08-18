@@ -149,3 +149,11 @@ transform: scale(1.1);
   font-weight: bolder;
   margin: 0px 4px;
 }
+
+.movie-trailer{
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 10px;
+  padding-top:7px ;
+}

@@ -3,7 +3,7 @@ const seats = document.querySelectorAll('.seat')
 const count = document.getElementById('count');
 const total = document.getElementById('total');
 const movieSelect = document.getElementById('movie');
-const ticketPrice = +movieSelect.value;
+let ticketPrice = +movieSelect.value;
 
 function updateSlectedCount(){
         let selectedSeats = document.getElementsByClassName('chose')
@@ -12,6 +12,15 @@ function updateSlectedCount(){
         count.innerText = totalSeats;
         total.innerText = movieSelect.value * totalSeats;
 }
+
+
+movieSelect.addEventListener('change', (e) =>{
+        ticketPrice = +e.target.value;
+        const screen =document.querySelectorAll('movie-trailer')
+        screen.id=e.target.id;
+       
+        updateSlectedCount();
+})
 
 // Event Listner on avalible seats
 container.addEventListener('click', function(e) {
