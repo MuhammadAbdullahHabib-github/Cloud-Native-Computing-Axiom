@@ -6,17 +6,17 @@ const movieSelect = document.getElementById('movie');
 const ticketPrice = +movieSelect.value;
 
 function updateSlectedCount(){
-        const selectedSeats = document.querySelectorAll('chose')
-        const totalSeats = selectedSeats.length ;
+        let selectedSeats = document.getElementsByClassName('chose')
+        let totalSeats = selectedSeats.length;
         console.log(totalSeats);
+        count.innerText = totalSeats;
+        total.innerText = movieSelect.value * totalSeats;
 }
 
 // Event Listner on avalible seats
 container.addEventListener('click', function(e) {
         if(e.target.classList.contains('vacentSeat')) {
-                if(e.target.src='artboard-vacantImg.png'){
-                e.target.src='artboard-manImg.png'; 
-                e.target.class='chose'
-                }
+                e.target.src='artboard-manImg.png';   
+                e.target.className='chose'
                 updateSlectedCount();
       }})
