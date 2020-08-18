@@ -82,6 +82,7 @@ body {
   width: 150px;
   margin-bottom: 30px;
   background-color: #711324;
+  cursor: pointer;
 }
 
 .home a {
@@ -91,6 +92,11 @@ body {
 
 .seat {
   margin: 3px;
+}
+
+.seat img:hover{
+cursor: pointer;
+transform: scale(1.1);
 }
 
 .seat:nth-last-of-type(8) {
