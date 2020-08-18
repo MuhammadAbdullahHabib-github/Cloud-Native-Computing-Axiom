@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Lato', sans-serif;
-  color:white;
+  font-family: "Lato", sans-serif;
+  color: white;
   background-image: url("/project2/Images/felix-mooneeram-evlkOfkQ5rE-unsplash.jpg");
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: overlay;
@@ -17,19 +17,18 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 220vh;
+  height: 190vh;
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
 }
-
 
 .movie-container label {
   display: block;
   color: #711324;
   font-size: 30px;
   font-weight: bold;
-  margin:0px 0px 10px 10px ;
+  margin: 0px 0px 10px 10px;
 }
 
 .movie-container img {
@@ -41,7 +40,7 @@ body {
   color: #800000;
   font-size: 20px;
   font-weight: lighter;
-  margin-top:10px;
+  margin-top: 10px;
   border: 0px;
   width: 100%;
   padding: 10px 10px 10px 10px;
@@ -49,14 +48,13 @@ body {
   border-radius: 20px;
 }
 
-.movie-container select:focus{
+.movie-container select:focus {
   outline: none;
 }
 
 .movie-container .movie option {
- margin-top: 10px;
+  margin-top: 10px;
 }
-
 
 .row {
   display: flex;
@@ -82,7 +80,7 @@ body {
   border: none;
   border-radius: 20px;
   width: 150px;
-  margin-bottom:30px;
+  margin-bottom: 30px;
   background-color: #711324;
 }
 
@@ -92,34 +90,53 @@ body {
 }
 
 .seat {
-  margin :3px;
+  margin: 3px;
 }
 
-.seat:nth-last-of-type(8){
+.seat:nth-last-of-type(8) {
   margin-right: 0px;
 }
-.seat:nth-last-of-type(7){
+.seat:nth-last-of-type(7) {
   margin-right: 100px;
 }
-.seat:nth-last-of-type(1){
+.seat:nth-last-of-type(1) {
   margin-left: 0px;
 }
-.seat:nth-last-of-type(2){
+.seat:nth-last-of-type(2) {
   margin-left: 100px;
 }
-.row-space{
+.row-space {
   margin-top: 20px;
 }
 
 .screen {
-background-color: #711324;
-width: 670px;
-height: 300px;
-margin: 20px 0px 20px 0px;
-border-radius: 10px;
-transform: rotateX(-45deg);
-box-shadow: 0 3px 10px #711324 ;
+  background-color: #711324;
+  width: 670px;
+  height: 300px;
+  margin: 20px 0px 20px 0px;
+  border-radius: 10px;
+  transform: rotateX(-45deg);
+  box-shadow: 0 3px 10px #711324;
 }
 .container {
   perspective: 1000px;
+}
+
+.text p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.count {
+  color: gray;
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 0px 4px;
+}
+
+.total {
+  color: gray;
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 0px 4px;
 }
