@@ -81,12 +81,15 @@ body {
   border-radius: 20px;
   width: 150px;
   margin-bottom: 30px;
+  color: white;
+  font-weight: lighter;
+  font-size: 17px;
   background-color: #711324;
   cursor: pointer;
+  
 }
 
 .home a {
-  color: white;
   text-decoration-line: none;
 }
 
