@@ -138,14 +138,14 @@ transform: scale(1.1);
 }
 
 #count {
-  color: gray;
+  color: #711324;
   font-size: 20px;
   font-weight: bolder;
   margin: 0px 4px;
 }
 
 #total {
-  color: gray;
+  color: #711324;
   font-size: 20px;
   font-weight: bolder;
   margin: 0px 4px;
