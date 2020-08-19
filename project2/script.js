@@ -24,7 +24,7 @@ movieSelect.addEventListener('change', (e) =>{
 // Event Listner on avalible seats
 container.addEventListener('click', function(e) {
         if(e.target.classList.contains('vacentSeat')) {
-                e.target.src='occupied.png'; 
+                e.target.src='occupiedImg2.png'; 
                 e.target.className='chose'
                 updateSlectedCount();
  }})
