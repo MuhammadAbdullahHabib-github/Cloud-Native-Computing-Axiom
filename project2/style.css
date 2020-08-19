@@ -28,7 +28,7 @@ body {
   color: #711324;
   font-size: 30px;
   font-weight: bold;
-  margin: 0px 0px 10px 10px;
+  margin: 0px 0px 0px 10px;
 }
 
 .movie-container img {
@@ -122,7 +122,7 @@ transform: scale(1.1);
   background-color: #711324;
   width: 670px;
   height: 300px;
-  margin: 0px 0px 20px 0px;
+  /* margin: 0px 0px 20px 0px; */
   border-radius: 10px;
   transform: rotateX(-45deg);
   box-shadow: 0 3px 10px #711324;
@@ -153,7 +153,7 @@ transform: scale(1.1);
 .movie-trailer{
   display: flex;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 20px;
   margin-left: 10px;
   padding-top:7px ;
   border: none;
