@@ -66,13 +66,14 @@ body {
   color: white;
 }
 .legend li {
-  margin-right: 30px;
+  margin-right: 40px;
   display: block;
   font-size: 20px;
 }
 .legend small {
   display: block;
   text-align: center;
+  justify-content: center;
 }
 
 .home button {
