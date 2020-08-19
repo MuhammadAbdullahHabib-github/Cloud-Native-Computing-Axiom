@@ -5,7 +5,7 @@ const total = document.getElementById('total');
 const movieSelect = document.getElementById('movie');
 const screen = document.querySelector('.screen');
 let option = document.querySelectorAll('.movieClass');
-let movietrailer = ['https://www.youtube.com/embed/qSqVVswa420','https://www.youtube.com/embed/qSqVVswa420','https://www.youtube.com/embed/7TavVZMewpY','https://www.youtube.com/embed/XiHiW4N7-bo','https://www.youtube.com/embed/2QKg5SZ_35I']
+let movietrailer = ['https://www.youtube.com/embed/qSqVVswa420','https://www.youtube.com/embed/BIhNsAtPbPI','https://www.youtube.com/embed/7TavVZMewpY','https://www.youtube.com/embed/XiHiW4N7-bo','https://www.youtube.com/embed/2QKg5SZ_35I']
 let ticketPrice = +movieSelect.value;
 
 function updateSlectedCount(){
