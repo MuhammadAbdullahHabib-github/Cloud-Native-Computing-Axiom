@@ -1,4 +1,6 @@
 const movieOption = document.querySelector('#movie');
+let ticketCount = document.getElementById('count');
+let ticketPrice = document.getElementById('total');
 let movieTrailor = ['https://www.youtube.com/embed/qSqVVswa420','https://www.youtube.com/embed/BIhNsAtPbPI','https://www.youtube.com/embed/7TavVZMewpY','https://www.youtube.com/embed/XiHiW4N7-bo','https://www.youtube.com/embed/2QKg5SZ_35I']
 const screen = document.querySelector('.screen');
 movieOption.addEventListener("change", (e) => {
@@ -16,13 +18,18 @@ movieOption.addEventListener("change", (e) => {
 })
 
 function updateCount(){
-        
+        let bookedSeat = document.querySelectorAll('.occupied')
+        let totalSeatsBooked = bookedSeat.length;
+        ticketCount.innerText = totalSeatsBooked;
+        ticketPrice.innerText = totalSeatsBooked * movieOption.value;
 }
 
 let container = document.querySelector('.container');
 container.addEventListener("click",(e) => {
         if(e.target.classList.contains('vacentSeat')){
                 e.target.src = 'occupiedImg2.png';
+                e.target.className = 'occupied'; 
+                updateCount();
         }
 })
 
