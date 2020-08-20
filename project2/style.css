@@ -93,6 +93,11 @@ body {
 .home a {
   text-decoration-line: none;
 }
+.home{
+  margin-right: 30px;
+  margin-left: 20px;
+  
+}
 
 .seat {
   margin: 3px;
@@ -157,4 +162,9 @@ transform: scale(1.1);
   margin-left: 10px;
   padding-top:7px ;
   border: none;
+}
+.btn{
+  display: flex;
+  justify-items: center;
+  align-items: center;
 }
