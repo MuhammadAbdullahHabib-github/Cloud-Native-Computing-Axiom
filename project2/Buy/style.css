@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: white;
+  background-image: url("/project2/Images/felix-mooneeram-evlkOfkQ5rE-unsplash.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 110vh;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  width: 200px;
+  margin-bottom: 30px;
+  color: white;
+  font-weight: lighter;
+  font-size: 17px;
+  background-color: #ff1744;
+  cursor: pointer;
+  
+}
+.heading {
+    display: flex;
+}
+h1 {
+    margin-right: 12px;
+}
+p{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+h3 {
+     color: black;
+}
+
+
+span {
+    margin-left: 50px;
+}
+
+.bookingRefrence {
+    display:block;
+}
+
+.seat {
+    display:block;
+    margin-bottom: 1px;
+}
+
+.showTiming {
+    display:block;
+    margin-bottom: 1px;
+}
+
+.location {
+    display:block;
+    margin-bottom: 1px;
+}
+
+.movie {
+    display:block;
+    
+}
+
+.movieImg {
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 30px;
+    margin-left: 455px;
+    margin-top: 3px;
+}
+
+.movieImg h1{
+    color: black;
+   
+}
+
+.small-heading{
+    
+    position: absolute;
+    left: 400px;
+    margin-top: 30px;
+
+}
+
+#show {
+    color:#ff1744 ;
+}
