@@ -20,10 +20,7 @@ movieOption.addEventListener("change", (e) => {
 })
 
 function updateCount(){
-        
-
         let totalSeatCount =  (  totalSeatsBooked -  totalVacentSeats );
-        console.log(totalSeatCount)
         ticketCount.innerText = totalSeatCount;
         ticketPrice.innerText = totalSeatCount * movieOption.value;
 }
@@ -41,9 +38,6 @@ container.addEventListener("click",(e) => {
         }
         updateCount();
 })
-
-
-
 
 
 
