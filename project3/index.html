@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Video Player</title>
+</head>
+
+<body>
+    <h1>Video Player</h1>
+    <video src="/project3/assets/videos/Class_001_Environment_Setup.mp4" id="video" class="screen"
+        poster="/project3/assets/images/download.png"></video>
+    <div class="controls-btn">
+        <div class="controls">
+
+            <button class="btn">
+                <i class="fas fa-play fa-2x"></i>
+            </button>
+
+
+            <button class="btn">
+                <i class="fas fa-pause fa-2x"></i>
+            </button>
+
+
+            <button class="btn">
+                <i class="fas fa-stop fa-2x"></i>
+            </button>
+
+        </div>
+        <input type="range" id="progress" class="progress" min="0" max="100" step="0.1" value="0">
+        <span id="timestamp" class="timestamp">
+            00:00
+        </span>
+    </div>
+    <script src="/project3/script.js"></script>
+    <script src="https://kit.fontawesome.com/b11422e6d2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
