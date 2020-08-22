@@ -51,6 +51,11 @@ button {
   background-color: #ff1744;
   cursor: pointer;
 }
+
+button:focus{
+  outline: 0;
+}
+
 .heading {
   display: flex;
   flex-flow: row wrap;

@@ -90,6 +90,10 @@ body {
   
 }
 
+.home button:focus{
+  outline: 0;
+}
+
 .home a {
   text-decoration-line: none;
 }
