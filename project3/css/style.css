@@ -81,3 +81,16 @@ span{
     margin-top: 6px;
     margin-left: 5px;
 }
+
+#home button{
+margin-top: 20px;
+width:200px;
+height: 30px;
+border-radius: 15px;
+border: 0px;
+    
+}
+
+#home button:focus{
+    outline: 0;
+}
