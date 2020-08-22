@@ -8,22 +8,41 @@ const screen = document.querySelector('.screen');
 movieOption.addEventListener("change", (e) => {
         if(+e.target.value === 200){
                 screen.innerHTML = `<iframe class='movie-trailer' width='650' height='290' src='${movieTrailor[0]}' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>`;
+                const name = 'Top Gun: Maverick';
+                localStorage.setItem('Movie',name);
         }else if(+e.target.value === 150){
                 screen.innerHTML = `<iframe class='movie-trailer' width='650' height='290' src='${movieTrailor[1]}' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>`;
+                const name = 'No Time To Die';
+                localStorage.setItem('Movie',name);
         }else if(+e.target.value === 210){
                 screen.innerHTML = `<iframe class='movie-trailer' width='650' height='290' src='${movieTrailor[2]}' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>`;
+                const name = 'The Lion King';
+                localStorage.setItem('Movie',name);
         }else if(+e.target.value === 180){
                 screen.innerHTML = `<iframe class='movie-trailer' width='650' height='290' src='${movieTrailor[3]}' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>`;
+                const name = 'Mission Impossible';
+                localStorage.setItem('Movie',name);
         }else if(+e.target.value === 140){
                 screen.innerHTML = `<iframe class='movie-trailer' width='650' height='290' src='${movieTrailor[4]}' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>`;
+                const name = 'Jumanji';
+                localStorage.setItem('Movie',name);
         }
 })
 
 function updateCount(){
         let totalSeatCount =  (  totalSeatsBooked -  totalVacentSeats );
         ticketCount.innerText = totalSeatCount;
-        ticketPrice.innerText = totalSeatCount * movieOption.value;
+        let totalSeatPrice  = totalSeatCount * movieOption.value;
+        ticketPrice.innerText = totalSeatPrice;
+        localStorage.setItem("SEAT",totalSeatCount);
+        localStorage.setItem("Price",totalSeatPrice );
+        return;
+        
+        
+        
+           
 }
+        
 
 let container = document.querySelector('.container');
 container.addEventListener("click",(e) => {
@@ -38,6 +57,8 @@ container.addEventListener("click",(e) => {
         }
         updateCount();
 })
+
+
 
 
 
