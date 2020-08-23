@@ -50,6 +50,8 @@ button {
   font-size: 17px;
   background-color: #ff1744;
   cursor: pointer;
+  min-width: 48px ;
+  min-height: 48px;
 }
 
 button:focus{
@@ -60,6 +62,7 @@ button:focus{
   display: flex;
   flex-flow: row wrap;
   width: 370px;
+  max-width: 100%;
   justify-content: space-between;
  
 }
@@ -73,10 +76,11 @@ p {
   margin-bottom: 50px;
   font-size: 17px;
   font-weight: lighter;
+  max-width: 100%;
 }
 
 h3 {
-  color: black;
+  color: royalblue;
 }
 
 span {
@@ -87,11 +91,12 @@ span {
     position: relative;
     margin-top: 40px;
     margin-bottom: 30px;
-    
+    max-width: 100%;
 }
 
 .img img{
     width: 620px;
+    max-width: 100%;
 }
 
 .space{
@@ -99,6 +104,7 @@ span {
 }
 .movieImg{
     position: absolute;
+    max-width: 100%;
     top: 110px;
     left: 335px;
 }
@@ -120,41 +126,27 @@ span {
 .movie {
   font-size: 21px;
   margin-bottom: 10px;
-  /* position: absolute;
-  top: 200px;
-  left: 400px; */
+ 
 }
 
 .location {
   font-size: 21px;
   margin-bottom: 10px;
-  /* position: absolute;
-  top: 230px;
-  left: 400px;
-*/
 }
 .showTiming {
   font-size: 21px;
   margin-bottom: 10px;
-  /* position: absolute;
-  top: 260px;
-  left: 400px; */
+  
 }
 
 .seat {
   font-size: 21px;
   margin-bottom: 10px;
-  /* position: absolute;
-  top: 290px;
-  left: 400px; */
 }
 
 .bookingRefrence {
   font-size: 21px;
   margin-bottom: 10px;
-  /* position: absolute;
-  top: 320px;
-  left: 400px; */
 }
 
 .movieImg {
