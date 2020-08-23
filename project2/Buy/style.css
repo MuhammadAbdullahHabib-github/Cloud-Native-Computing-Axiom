@@ -83,20 +83,21 @@ h3 {
   color: royalblue;
 }
 
-span {
-  margin-left: 50px;
+.day-span, .date-span  {
+  margin-left: 11px;
 }
 
-.img {
+.img img{
     position: relative;
     margin-top: 40px;
     margin-bottom: 30px;
     max-width: 100%;
 }
 
-.img img{
-    width: 620px;
+.img{
+    
     max-width: 100%;
+    position: relative;
 }
 
 .space{
@@ -110,17 +111,13 @@ span {
 }
 
 .small-heading {
-  position: absolute;
-  top: 180px;
-  left: 390px;
+  float: left;
 }
 
 .ticket-information{
     
-    position: absolute;
-    top: 180px;
-    left: 560px;
-
+  float: left;
+  margin-left: 50px;
 }
 
 .movie {
@@ -163,6 +160,18 @@ span {
 
 #show {
   color: #ff1744;
+}
+
+.main-container-ticket{
+  position: absolute;
+  top: 28%;
+  left: 11%;
+}
+
+@media only screen and (max-width: 767px) {
+  h3 {
+    font-size: 13px;
+  }
 }
 
 
