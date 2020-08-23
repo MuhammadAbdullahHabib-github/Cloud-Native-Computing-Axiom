@@ -112,8 +112,6 @@ h3 {
 }
 
 .ticket-information{
-    
-  float: left;
   margin-left: 50px;
 }
 
@@ -183,10 +181,241 @@ h3 {
     margin-right: 10px;
   }
   .space {
-    margin-top: 0px;
+    margin-top: -10px;
   }
   h3 {
+    font-size: 11px;
     color: royalblue;
   }
+  button {
+    padding: 9px;
+    border: none;
+    border-radius: 15px;
+    width: 130px;
+    margin: 100px 0 0 0;
+    color: white;
+    font-weight: lighter;
+    font-size: 12px;
+    background-color: #ff1744;
+    cursor: pointer;
+    outline: none;
+}
+p {
+  margin: 0px 30px 50px 30px;
+  font-size: 12px;
+  font-weight: lighter;
+  max-width: 100%;
+}
+.ticket-information {
+  margin-left: 77px;
+}
+.img img {
+  position: relative;
+  margin: 40px 0 30px 15px;
+  max-width: 90%;
+}
+.main-container-ticket {
+  position: absolute;
+  top: 28%;
+  left: 14%;
+}
 }
 
+@media only screen and (max-width: 375px) {
+  button {
+    padding: 11px;
+    border: none;
+    border-radius: 15px;
+    width: 137px;
+    margin: 100px 0 0 0;
+    color: white;
+    font-weight: lighter;
+    font-size: 13px;
+    background-color: #ff1744;
+    cursor: pointer;
+    outline: none;
+}
+.heading {
+  max-width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+h1 {
+  font-size: 18px;
+  margin-right: 10px;
+}
+h3 {
+  font-size: 13px;
+}
+.space {
+  margin-top: -75px;
+}
+p {
+  margin: 0px 30px 50px 30px;
+  font-size: 12px;
+  font-weight: lighter;
+  max-width: 100%;
+}
+.img img {
+  position: relative;
+  margin: 40px 0 30px 14px;
+  max-width: 90%;
+}
+.main-container-ticket {
+  position: absolute;
+  top: 28%;
+  left: 14%;
+}
+.ticket-information {
+  margin-left: 87px;
+}
+}
+
+@media only screen and (max-width: 414px) {
+  button {
+    padding: 12px;
+    border: none;
+    border-radius: 40px;
+    width: 150px;
+    margin: 170px 0 0 0;
+    color: white;
+    font-weight: lighter;
+    font-size: 14px;
+    background-color: #ff1744;
+    cursor: pointer;
+    outline: none;
+}
+.heading {
+  max-width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+h1 {
+  font-size: 22px;
+  margin-right: 10px;
+}
+h3 {
+  font-size: 15px;
+}
+.space {
+  margin-top: -75px;
+}
+p {
+  margin: 0px 30px 50px 30px;
+  font-size: 14px;
+  font-weight: lighter;
+  max-width: 100%;
+}
+.img img {
+  position: relative;
+  margin: 40px 0 30px 14px;
+  max-width: 90%;
+}
+.main-container-ticket {
+  position: absolute;
+  top: 25%;
+  left: 14%;
+}
+.ticket-information {
+  margin-left: 93px;
+}
+}
+@media only screen and (max-width: 414px) {
+  button {
+    padding: 12px;
+    border: none;
+    border-radius: 40px;
+    width: 150px;
+    margin: 260px 0 0 0;
+    color: white;
+    font-weight: lighter;
+    font-size: 14px;
+    background-color: #ff1744;
+    cursor: pointer;
+    outline: none;
+}
+.heading {
+  max-width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+h1 {
+  font-size: 22px;
+  margin-right: 10px;
+}
+h3 {
+  font-size: 13px;
+}
+.space {
+  margin-top: -10px;
+}
+p {
+  margin: 0px 30px 50px 30px;
+  font-size: 14px;
+  font-weight: lighter;
+  max-width: 100%;
+}
+.img img {
+  position: relative;
+  margin: 40px 0 30px 14px;
+  max-width: 90%;
+}
+.main-container-ticket {
+  position: absolute;
+  top: 26%;
+  left: 13%;
+}
+.ticket-information {
+  margin-left: 93px;
+}
+}
+@media only screen and (max-width: 768px) {
+  button {
+    padding: 17px;
+    border: none;
+    border-radius: 50px;
+    width: 220px;
+    margin: 250px 0 0 0;
+    color: white;
+    font-weight: lighter;
+    font-size: 17px;
+    background-color: #ff1744;
+    cursor: pointer;
+    outline: none
+}
+.heading {
+  max-width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+h1 {
+  font-size: 37px;
+  margin-right: 15px;
+}
+h3 {
+  color: black;
+  font-size: 24px;
+}
+.space {
+  margin-top: -10px;
+}
+p {
+  margin: 35px 30px 50px 30px;
+  font-size: 19px;
+  font-weight: lighter;
+  max-width: 100%;
+}
+.img img {
+  position: relative;
+  margin: 40px 0 30px 14px;
+  max-width: 90%;
+}
+.main-container-ticket {
+  position: absolute;
+  top: 22%;
+  left: 11%;
+}
+.ticket-information {
+  margin-left: 143px;
+}
+}
