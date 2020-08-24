@@ -79,7 +79,7 @@ img{
 }
 
 .btn{
-    margin: 504% 0 0 20%;
+    margin: 458% 0 0 20%;
     background: transparent;
     border: none;
 }
@@ -92,7 +92,7 @@ img{
   background:white;
   -webkit-transition: .2s;
   transition: opacity .2s;
-  margin-top: 33%;
+  margin-top: 30.5%;
   margin-left: 1.5%;
 }
 .progress:hover {
@@ -137,7 +137,7 @@ img{
 span{
     font-weight: bold;
     font-size: 18px;
-    margin-top: 32%;
+    margin-top: 29.5%;
     margin-left: 2%;
     color: white;
   
