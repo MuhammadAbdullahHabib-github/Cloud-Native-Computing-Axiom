@@ -230,7 +230,7 @@ transform: scale(1.1);
 .screen {
   background-color: #ff1744;
     width: 280px;
-    height: 179px;
+    height: 170px;
     margin: -46px 0px -30px 17px;
     border-radius: 7px;
     transform: rotateX(-70deg);
