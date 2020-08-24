@@ -195,20 +195,20 @@ span:hover{
     }
 
     .progress {
-        width: 198%;
-        margin-left: -77%;
+        width: 190%;
+        margin-left: -70%;
     }
 
     img {
         width: 34%;
-        margin: 1px 0 0px -51px;
+        margin: 1px 0 0px -55px;
     }
     .heading-of-video-player {
         margin: 0 0 0 41%;
     }
     span{
         font-size: 13px;
-        margin: 0px 0 0 93%;
+        margin: 0px 0 0 115%;
     }
     #home button {
         cursor: pointer;
@@ -217,8 +217,9 @@ span:hover{
         height: 22%;
     }
     .heading-of-video-player {
-        margin: -200px 0 0 2%;
+        margin: 0px 0 0 2%;
     }
+
     h1 {
         font-size: 150%;
     }
@@ -226,6 +227,8 @@ span:hover{
         top: 84%;
         left: 22%;
     }
-    
+    #home{
+        margin: 50% 0 0 0
+    }
 
 }
