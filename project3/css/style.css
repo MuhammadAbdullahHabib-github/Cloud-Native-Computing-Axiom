@@ -32,7 +32,7 @@ body {
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
-    height: 130vh;
+    height: 100vh;
    
 }
 
@@ -47,6 +47,10 @@ img{
     justify-content: center;
 }
 
+.video-container{
+    position: relative;
+}
+
 .bold-h1 {
     font-weight: bolder;
 }
@@ -58,6 +62,7 @@ img{
 .screen{
     cursor: pointer;
     border-radius: 7px;
+    margin: 1% 0 0 21%;
     width: 60%;
     background-color: black !important;
     
@@ -69,31 +74,29 @@ img{
     
    
 }
-.controls-btn-all{
+.controls-btn-all {
     position: absolute;
     align-content: center;
-    top: 535px;
+    top: 91%;
+    left: 22%;
     display: flex;
     width: 60%;
-
 }
 
 .btn{
-    margin: 458% 0 0 20%;
     background: transparent;
-    border: none;
+    border: none
 }
 .progress{
-  width: 83%;
-  -webkit-appearance: none;  
+  width: 485%;
+  margin-left: -62%;
+ -webkit-appearance: none;  
   height: 5px;
   border-radius: 5px;
   outline: none;  
   background:white;
   -webkit-transition: .2s;
   transition: opacity .2s;
-  margin-top: 30.5%;
-  margin-left: 1.5%;
 }
 .progress:hover {
     outline: none;
@@ -136,17 +139,15 @@ img{
 
 span{
     font-weight: bold;
+    margin: 0 0 0 1010%;
+    padding: 68% 0 0 0;
     font-size: 18px;
-    margin-top: 29.5%;
-    margin-left: 2%;
     color: white;
-  
 }
 
 #home button {
     cursor: pointer;
-    /* margin-top: 15%; */
-    margin: 15% 0 0 464%;
+    margin: 14% 0 0 424%;
     width: 185%;
     height: 85%;
     border-radius: 5px;
@@ -164,6 +165,13 @@ span{
     
     color: white;
     background-color: #FF0000;
+}
+
+img {
+    width: 27%;
+    margin: -6px 0 0px 0;
+    display: flex;
+    justify-content: center;
 }
 
 img:hover{
