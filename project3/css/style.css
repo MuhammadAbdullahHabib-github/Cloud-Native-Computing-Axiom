@@ -57,6 +57,7 @@ img{
 
 .heading-of-video-player {
     display: flex;
+    margin: 0 0 0 2%
 }
 
 .screen{
