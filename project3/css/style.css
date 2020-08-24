@@ -36,15 +36,23 @@ body {
    
 }
 
-h1{
-    color:#FF0000 ;
+h1 {
+    color: #FF0000;
     font-size: 35px;
-    
+    margin: 0 5% 3% 0;
 }
 img{
     width: 40px;
     display: flex;
     justify-content: center;
+}
+
+.bold-h1 {
+    font-weight: bolder;
+}
+
+.heading-of-video-player {
+    display: flex;
 }
 
 .screen{
@@ -71,13 +79,12 @@ img{
 }
 
 .btn{
-    border: 0;
-    cursor: pointer;
+    margin: 504% 0 0 20%;
     background: transparent;
-    margin-right:20px;
+    border: none;
 }
 .progress{
-    width: 580px;
+  width: 83%;
   -webkit-appearance: none;  
   height: 5px;
   border-radius: 5px;
@@ -85,10 +92,13 @@ img{
   background:white;
   -webkit-transition: .2s;
   transition: opacity .2s;
-  margin-top: 12px;
+  margin-top: 33%;
+  margin-left: 1.5%;
 }
 .progress:hover {
     outline: none;
+    color: #FF0000;
+    opacity: 0.4;
 }
 
 .progress::-webkit-slider-thumb {
@@ -127,28 +137,23 @@ img{
 span{
     font-weight: bold;
     font-size: 18px;
-    margin-top: 6px;
-    margin-left: 15px;
+    margin-top: 32%;
+    margin-left: 2%;
     color: white;
   
 }
-.btn{
-    margin: 0;
-}
-#home{
-    margin-left: 610px;
-}
 
-#home button{
-cursor: pointer;
-margin-top: 20px;
-width:150px;
-height: 35px;
-border-radius: 5px;
-border: 4px solid #FF0000; 
-color: #FF0000;   
-font-size: 20px;
-background-color:transparent;
+#home button {
+    cursor: pointer;
+    /* margin-top: 15%; */
+    margin: 15% 0 0 464%;
+    width: 185%;
+    height: 85%;
+    border-radius: 5px;
+    border: 3px solid #FF0000;
+    color: #FF0000;
+    font-size: 20px;
+    background-color: transparent;
 }
 
 #home button:focus{
@@ -156,7 +161,9 @@ background-color:transparent;
 }
 
 #home button:hover{
-    transform: scale(1.1);
+    
+    color: white;
+    background-color: #FF0000;
 }
 
 img:hover{
