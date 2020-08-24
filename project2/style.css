@@ -166,9 +166,120 @@ transform: scale(1.1);
   margin-left: 10px;
   padding-top:7px ;
   border: none;
+  width:96.5%;
+  height:96%;
 }
 .btn{
   display: flex;
   justify-items: center;
   align-items: center;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 374px){
+  body {
+    height: 145vh;
+  }
+  .movie-container label {
+    display: block;
+    color: #ff1744;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 0px 0px 10px;
+  }
+  .movie-container img {
+    height: 20px;
+    margin-right: 5px;
+}
+.movie-container select {
+  display: block;
+  color: #ff1744;
+  font-size: 15px;
+  font-weight: lighter;
+  margin-top: 10px;
+  border: 0px;
+  width: 100%;
+  padding: 4px 4px 4px 4px;
+  margin: 10px;
+  border-radius: 16px;
+}
+.legend-vacent{
+  width: 40px;
+}
+.legend-occupied{
+  width: 40px;
+}
+.vacentSeat{
+  width: 30px;
+}
+.seat:nth-last-of-type(8) {
+  margin-right: 0px;
+}
+.seat:nth-last-of-type(7) {
+  margin-right: 20px;
+}
+.seat:nth-last-of-type(1) {
+  margin-left: 0px;
+}
+.seat:nth-last-of-type(2) {
+  margin-left: 20px;
+}
+.row-space {
+  margin-top: 20px;
+}
+.screen {
+  background-color: #ff1744;
+    width: 280px;
+    height: 179px;
+    margin: -46px 0px -30px 17px;
+    border-radius: 7px;
+    transform: rotateX(-70deg);
+}
+.movie-trailer {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 5px;
+  padding-top: 7px;
+  border: none;
+  width: 96.5%;
+  height: 96%;
+}
+.container {
+  margin-left: 10px;
+  perspective: 800px;
+}
+.text {
+  font-weight: lighter;
+  margin-right: -30px;
+  font-size: 20px;
+}
+.home button {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  width: 150px;
+  margin-bottom: 30px;
+  margin-left: 0px;
+  color: white;
+  font-weight: lighter;
+  font-size: 17px;
+  background-color: #ff1744;
+  cursor: pointer;
+}
+.home {
+  margin-right: 0px;
+  margin-left: 8px;
+}
+.legend li {
+  margin-right: 12px;
+  display: block;
+  font-size: 15px;
+}
+.btn {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin: 85px 0 0 0;
+  margin: 84px 3px 0 0
+}
 }

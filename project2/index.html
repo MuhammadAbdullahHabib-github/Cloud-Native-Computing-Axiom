@@ -21,24 +21,23 @@
     </div>
     <ul class="legend">
         <li>
-
-            <img src="/project2/Images/artboard-vacantImg.png" alt="vacent">
-            </div>
+            <img src="/project2/Images/artboard-vacantImg.png" alt="vacent" class="legend-vacent">
             <small>Avalible</small>
 
         </li>
-        <li>
-            <img class="male" src="/project2/occupiedImg2.png" alt="male">
+        <li >
+            <img  src="/project2/occupiedImg2.png"  class="legend-vacent" alt="occupied">
             <small>Occupied</small>
-
         </li>
 
     </ul>
     <div class="container">
-        <div class="screen"><iframe class='movie-trailer' width='650' height='290'
+        <div class="screen">
+            <iframe class='movie-trailer'
                 src='https://www.youtube.com/embed/qSqVVswa420' frameborder='0'
                 allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
-                allowfullscreen></iframe></div>
+                allowfullscreen></iframe>
+            </div>
         <div class="row-space">
             <div class="row">
                 <div class="seat">
@@ -199,13 +198,13 @@
         </div>
     </div>
     <p class="text">
-        You have selected <span id="count">0</span> seats for a total price of Rs. <span id="total">0</span>
+        You have selected <span id="count">0</span> seats .<br> Your total price of is Rs. <span id="total">0</span>.
     </p>
-    <div class="btn">
+    <div class="btn" id="home">
         <div class="home">
             <a href="../index.html"><button>Home</button></a>
         </div>
-        <div class="home">
+        <div class="home" id="buy">
             <a href="/project2/Buy/index.html"><button onclick="updateCount()">Buy</button></a>
         </div>
     </div>
