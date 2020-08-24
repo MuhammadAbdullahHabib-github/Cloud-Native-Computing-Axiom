@@ -178,6 +178,7 @@ transform: scale(1.1);
 @media only screen and (min-width: 320px) and (max-width: 374px){
   body {
     height: 145vh;
+    width: 300px;
   }
   .movie-container label {
     display: block;
@@ -194,7 +195,7 @@ transform: scale(1.1);
   display: block;
   color: #ff1744;
   font-size: 15px;
-  font-weight: lighter;
+  font-weight: bold;
   margin-top: 10px;
   border: 0px;
   width: 100%;
