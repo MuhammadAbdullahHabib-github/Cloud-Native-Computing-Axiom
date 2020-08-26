@@ -145,8 +145,7 @@ img{
 
 span{
     font-weight: bold;
-    margin: 0 0 0 800%;
-    padding: 68% 0 0 0;
+    margin: 1px 0 0 1090%;
     font-size: 18px;
     color: white;
 }
@@ -186,8 +185,13 @@ img:hover{
 span:hover{
     transform: scale(1.1);
 }
+.btn-stop{
+    width:43%;
+    margin: -13% 0 0 24%;
+    outline: none;
+    }
 
-@media only screen and (min-width: 320px) and (max-width: 480px){
+@media only screen and (min-width: 375px) and (max-width: 480px){
     body {
         height:100vh;
     }
@@ -200,8 +204,9 @@ span:hover{
     }
 
     .progress {
-        width: 190%;
-        margin-left: -70%;
+        width: 210%;
+        margin-left: -83%;
+        
     }
 
     img {
@@ -213,9 +218,14 @@ span:hover{
     }
     span{
         font-size: 13px;
-        margin: 0px 0 0 115%;
+        margin: 0px 0 0 261%;
     }
-   
+
+   .btn-stop{
+    width: 60%;
+    margin: -26% 0 0 25%;
+    }
+
     #home button {
         cursor: pointer;
         margin: 147% 0 0 0%;
