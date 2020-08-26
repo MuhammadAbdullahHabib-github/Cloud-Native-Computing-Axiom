@@ -46,6 +46,11 @@ img{
     display: flex;
     justify-content: center;
 }
+.btn-stop{
+    background-color:transparent;
+    border: none;
+    margin: 0 0 0 -35%;
+}
 
 .video-container{
     position: relative;
@@ -89,8 +94,8 @@ img{
     border: none
 }
 .progress{
-  width: 485%;
-  margin-left: -62%;
+    width: 445%;
+    margin-left: -96%;
  -webkit-appearance: none;  
   height: 5px;
   border-radius: 5px;
@@ -140,7 +145,7 @@ img{
 
 span{
     font-weight: bold;
-    margin: 0 0 0 1010%;
+    margin: 0 0 0 800%;
     padding: 68% 0 0 0;
     font-size: 18px;
     color: white;
@@ -210,6 +215,7 @@ span:hover{
         font-size: 13px;
         margin: 0px 0 0 115%;
     }
+   
     #home button {
         cursor: pointer;
         margin: 147% 0 0 0%;
