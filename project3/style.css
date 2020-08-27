@@ -46,10 +46,12 @@ img{
     display: flex;
     justify-content: center;
 }
-.btn-stop{
-    background-color:transparent;
+.btn-stop {
+    background-color: transparent;
     border: none;
-    margin: 0 0 0 -35%;
+    width: 43%;
+    margin: -10% 0 0 18%;
+    outline: none;
 }
 
 .video-container{
@@ -91,11 +93,11 @@ img{
 
 .btn{
     background: transparent;
-    border: none
+    border: none;
 }
 .progress{
-    width: 445%;
-    margin-left: -96%;
+  width: 445%;
+  margin-left: -115%;
  -webkit-appearance: none;  
   height: 5px;
   border-radius: 5px;
@@ -143,12 +145,15 @@ img{
     color: red;
 }
 
-span{
+.timestamp{
+    position: absolute;
     font-weight: bold;
-    margin: 1px 0 0 1090%;
+    left: 76.8%;
+    top: 91%;
     font-size: 18px;
     color: white;
 }
+
 
 #home button {
     cursor: pointer;
@@ -182,16 +187,8 @@ img {
 img:hover{
     transform: scale(1.1);
 }
-span:hover{
-    transform: scale(1.1);
-}
-.btn-stop{
-    width:43%;
-    margin: -13% 0 0 24%;
-    outline: none;
-    }
 
-@media only screen and (min-width: 320px) and (max-width: 480px){
+/* @media only screen and (min-width: 320px) and (max-width: 480px){
     body {
         height:100vh;
     }
@@ -247,4 +244,4 @@ span:hover{
         margin: 50% 0 0 0
     }
 
-}
+} */
