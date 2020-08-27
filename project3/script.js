@@ -16,7 +16,7 @@ function toggleVideo()  {
    }
 }
 
-
+//
 function updateIcon()  {
     if(video.paused){
         playPauseButton.innerHTML =`<img src="${buttons[0]}" alt="Play-btn" id="play" class="play"></img>`   
