@@ -16,13 +16,6 @@ function toggleVideo()  {
    }
 }
 
-function button() {
-    if(video.played){
-        video.pause();
-        console.log(video.value.src); 
-    }
-
-} 
 
 function updateIcon()  {
     if(video.paused){
@@ -64,7 +57,7 @@ video.addEventListener('play',updateIcon);
 // 4- Video Element -play progress bar d time span
 video.addEventListener('timeupdate',updateProgress);
 // 5- Play Button - click to play or pause the video
-play.addEventListener('click',button);
+play.addEventListener('click',toggleVideo());
 // 6- Stop Button - click to reset video and pause video 
 stop.addEventListener('click',stopVideo);
 // 7- Prograss bar - change podition to change time of playback
