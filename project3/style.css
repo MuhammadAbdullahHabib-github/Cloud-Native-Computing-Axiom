@@ -72,9 +72,9 @@ img{
     border-radius: 7px;
     margin: 1% 0 0 21%;
     width: 60%;
-    background-color: black !important;
-    
+    background-color: black !important;    
 }
+
 
 .controls{
     display: flex;
@@ -153,6 +153,7 @@ img{
     font-size: 18px;
     color: white;
 }
+
 
 
 #home button {

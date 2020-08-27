@@ -4,9 +4,8 @@ const stop = document.getElementById('stop');
 const progress = document.getElementById('progress');
 const timestamp = document.getElementById('timestamp');
 const playPauseButton = document.getElementById('play-pause-id');
-console.log(playPauseButton);
 
-let buttons = ["/project3/assets/images/play-btn.png","/project3/assets/images/pause-btn.png"]
+let buttons = ["/project3/assets/images/play-btn.png","/project3/assets/images/pause-btn.png"];
 
 //Function
 function toggleVideo()  {
@@ -16,20 +15,26 @@ function toggleVideo()  {
        video.pause();
    }
 }
+
 function updateIcon()  {
     if(video.paused){
-        playPauseButton.innerHTML =`<img src="${buttons[0]}" alt="Play-btn" id="play" class="play"></img>`
-    }else if(video.played){ 
-        playPauseButton.innerHTML=`<img src="${buttons[1]}" alt="stop-btn" id="stop" width="60%" class="stop"></img>`
+        playPauseButton.innerHTML =`<img src="${buttons[0]}" alt="Play-btn" id="play" class="play"></img>`   
+    }else  if(video.played) {     
+        playPauseButton.innerHTML=`<img src="${buttons[1]}" alt="stop-btn" id="stop" width="60%" class="stop"></img>`  
     }
 }
+
 function updateProgress() {
-   progress.value = (video.currentTime/video.duration)*100;
+  progress.value = (video.currentTime/video.duration)*100;
   let minutes = Math.floor(video.currentTime /60);
+  if(minutes < 10 ) {
+      minutes = `0${minutes}`;
+  }
   let seconds = Math.floor(video.currentTime % 60);
-  timestamp.innerHTML = `${minutes}:${seconds} `
-  
-   
+  if(seconds < 10 ) {
+    seconds = `0${seconds}`;
+  }
+  timestamp.innerHTML = `${minutes}:${seconds}` ;
 }
 
 function stopVideo() {
