@@ -16,12 +16,12 @@ function toggleVideo()  {
    }
 }
 
-//
+
 function updateIcon()  {
     if(video.paused){
-        playPauseButton.innerHTML =`<img src="${buttons[1]}" alt="Play-btn"></img>`   
+        playPauseButton.innerHTML =`<img src="${buttons[1]}" alt="Play-btn">`   
     }else  if(video.played) {     
-        playPauseButton.innerHTML=`<img src="${buttons[0]}" alt="pause-btn"></img>`  
+        playPauseButton.innerHTML=`<img src="${buttons[0]}" alt="pause-btn">`  
     }
 }
 
