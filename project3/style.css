@@ -11,8 +11,7 @@ h1, h2 {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+
 }
 
 body {
@@ -29,6 +28,7 @@ h1 {
     color: #FF0000;
     font-size: 35px;
     margin: 0 5% 3% 0;
+    font-weight: lighter;
 }
 img{
     width: 40px;
