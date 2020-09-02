@@ -5,7 +5,7 @@ const progress = document.getElementById('progress');
 const timestamp = document.getElementById('timestamp');
 const playPauseButton = document.getElementById('play-pause-id');
 
-let buttons = ["./assets/images/pause-btn.png","./assets/images/Play-btn.png"];
+let buttons = ["./assets/images/Play-btn.png","./assets/images/pause-btn.png"];
 
 //Function
 function toggleVideo()  {
@@ -19,7 +19,7 @@ function toggleVideo()  {
 
 function updateIcon()  {
     if(video.paused){
-        playPauseButton.innerHTML =`<img src="${buttons[1]}" alt="Play-btn">`   
+        playPauseButton.innerHTML =`<img src="${buttons[0]}" alt="Play-btn">`   
     }else  if(video.played) {     
         playPauseButton.innerHTML=`<img src="${buttons[0]}" alt="pause-btn">`  
     }
