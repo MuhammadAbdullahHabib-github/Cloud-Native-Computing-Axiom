@@ -21,7 +21,7 @@ function updateIcon()  {
     if(video.paused){
         playPauseButton.innerHTML =`<img src="${buttons[0]}" alt="Play-btn">`   
     }else  if(video.played) {     
-        playPauseButton.innerHTML=`<img src="${buttons[0]}" alt="pause-btn">`  
+        playPauseButton.innerHTML=`<img src="${buttons[1]}" alt="pause-btn">`  
     }
 }
 
