@@ -6,7 +6,7 @@ const timestamp = document.getElementById('timestamp');
 const playPauseButton = document.getElementById('play-pause-id');
 
 let buttons = ["./assets/images/Play-btn.png","./assets/images/Pause-btn.png"];
-//project3\assets\images\Pause-btn.png
+
 //Function
 function toggleVideo()  {
    if(video.paused){
