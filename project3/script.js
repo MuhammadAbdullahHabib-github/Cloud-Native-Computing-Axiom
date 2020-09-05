@@ -11,7 +11,7 @@ let buttons = ["./assets/images/Play-btn.png","./assets/images/Pause-btn.png"];
 function toggleVideo()  {
    if(video.paused){
        video.play();
-       video.volume=1;
+       video.volume = 1;
    }else if(video.played){
        video.pause();
    }
