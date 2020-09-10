@@ -331,6 +331,7 @@ ul {
     font-weight: lighter;
 }
 
+
 @media screen and (max-width: 1200px) {
     .main-container {
         width: 95%;
