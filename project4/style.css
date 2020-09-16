@@ -113,6 +113,12 @@ h1 {
     cursor: pointer;
     width: 155%;
 }
+
+.btn-container img:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
 select:focus ,input:focus{
     outline: none;
 }
