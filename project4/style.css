@@ -86,7 +86,7 @@ h1 {
     margin: 0 10px 10px 10px;
     width: 40%;
 }
-.amount input{
+.amount-one input{
     background-color:#EEEEEE;
     font-size: 80px;
     width: 500px;
@@ -94,6 +94,16 @@ h1 {
     border: 0pt;
     text-align: center;
 }
+
+.amount-two input{
+    background-color:#EEEEEE;
+    font-size: 80px;
+    width: 500px;
+    padding: 40px ;
+    border: 0pt;
+    text-align: center;
+}
+
 .btn-container{
     position: absolute;
     top: 175px;
@@ -110,4 +120,13 @@ input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button { 
   -webkit-appearance: none; 
   margin: 0; 
+}
+
+.rate {
+    color: #4c8bf5 ;
+    text-align: end;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-right: 20px;
 }

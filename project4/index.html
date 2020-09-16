@@ -25,9 +25,10 @@
         <div class="exchange-container">
             <div class="btn flip-btn">
                 <div class="btn-container">
-                    <img src="./images/flip-btn.png" alt="flip">
+                    <img src="./images/flip-btn.png" id='flip-btn' alt="flip">
                 </div>
             </div>
+            <div class="rate" id="rate"></div>
             <div class="currency-container">
             <div class="currency currency-one">
                 <div class="country-option">
@@ -104,8 +105,8 @@
                         <option value='ZAR'>South Africa</option>
                     </select>
                 </div>
-                <div class="amount">
-                    <input type="number" placeholder="1">
+                <div class="amount-one" >
+                    <input type="number" id="amount-one" placeholder="1">
                 </div>
             </div>
             <div class="currency currency-two">
@@ -183,13 +184,14 @@
                         <option value='ZAR'>South Africa</option>
                     </select>
                 </div>
-                <div class="amount">
-                    <input type="number" placeholder="0">
+                <div class="amount-two" >
+                    <input type="number" id="amount-two" placeholder="0">
                 </div>
             </div>
             </div>
         </div>
     </div>
+    <script src="./index.js"></script>
 </body>
 
 </html>
